@@ -271,6 +271,16 @@ The reference web deployment is:
 
 - [https://ibkocak.me](https://ibkocak.me)
 
+## License
+
+This project is proprietary and distributed under an `All Rights Reserved`
+license.
+
+- Commercial use requires prior written permission from the copyright holder.
+- Copying, modifying, redistributing, sublicensing, or selling this project is
+  not allowed without prior written permission.
+- See [LICENSE](LICENSE) for the full terms.
+
 ## Testing
 
 Run the test suite:
