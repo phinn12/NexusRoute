@@ -1,0 +1,9 @@
+id,merkez,mahalle,cadde_sokak,bina_adı,bina_no,kat,daire_no,formatted_address,lat,lng
+1,Merter Merkez,Merter,Sanayi Caddesi,,12,2,5,Sanayi Caddesi No:12 Kat:2 Daire:5 Merter,41.0438,28.8571
+2,Merter Merkez,Mehmet Nesih Ozmen,Gumusuyu Sokak,,8,1,2,Gumusuyu Sokak No:8 Kat:1 Daire:2 Merter,41.0465,28.8612
+3,Gungoren Merkez,Gungoren,General Ali Riza Gurcan Caddesi,,31,3,7,General Ali Riza Gurcan Caddesi No:31 Kat:3 Daire:7 Gungoren,41.0309,28.8817
+4,Gungoren Merkez,Tozkoparan,Cinar Sokak,,14,4,9,Cinar Sokak No:14 Kat:4 Daire:9 Tozkoparan,41.0288,28.8764
+5,Esenler Merkez,Kazim Karabekir,Atisalani Caddesi,,42,1,3,Atisalani Caddesi No:42 Kat:1 Daire:3 Esenler,41.0548,28.8724
+6,Esenler Merkez,Davutpasa,302. Sokak,,19,5,10,302. Sokak No:19 Kat:5 Daire:10 Davutpasa,41.0509,28.8798
+7,Sefakoy Merkez,Sefakoy,Inonu Caddesi,,27,2,4,Inonu Caddesi No:27 Kat:2 Daire:4 Sefakoy,41.0619,28.8287
+8,Sefakoy Merkez,Fevzi Cakmak,Halkali Caddesi,,55,3,6,Halkali Caddesi No:55 Kat:3 Daire:6 Fevzi Cakmak,41.0651,28.8364

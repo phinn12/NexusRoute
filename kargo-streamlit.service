@@ -1,0 +1,20 @@
+[Unit]
+Description=Kargo Dağıtım Sistemi Web UI (Streamlit)
+After=network-online.target kargo-api.service
+Wants=network-online.target kargo-api.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/kargo_fixed
+EnvironmentFile=-/home/ubuntu/kargo_fixed/.env
+Environment=BACKEND_BASE_URL=http://127.0.0.1:8010
+ExecStart=/home/ubuntu/kargo_fixed/run_streamlit.sh 8501
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=kargo-streamlit
+
+[Install]
+WantedBy=multi-user.target

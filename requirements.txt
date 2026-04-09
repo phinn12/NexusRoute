@@ -1,0 +1,15 @@
+streamlit
+pandas
+openpyxl
+folium
+osmnx
+networkx
+geopy
+ortools==9.14.6206
+scikit-learn
+fastapi
+uvicorn
+httpx
+pytest
+pydantic
+urllib3<2

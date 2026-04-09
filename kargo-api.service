@@ -1,0 +1,21 @@
+[Unit]
+Description=Kargo Optimization Backend API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/kargo_fixed
+EnvironmentFile=-/home/ubuntu/kargo_fixed/.env
+Environment=BACKEND_HOST=0.0.0.0
+Environment=BACKEND_PORT=8010
+ExecStart=/home/ubuntu/kargo_fixed/run_backend.sh
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=kargo-api
+
+[Install]
+WantedBy=multi-user.target

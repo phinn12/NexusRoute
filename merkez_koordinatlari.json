@@ -1,0 +1,22 @@
+{
+  "Merter Merkez": {
+    "lat": 41.0456,
+    "lng": 28.8534,
+    "description": "Merter Dağıtım Merkezi"
+  },
+  "Güngören Merkez": {
+    "lat": 41.0312,
+    "lng": 28.8789,
+    "description": "Güngören Dağıtım Merkezi"
+  },
+  "Esenler Merkez": {
+    "lat": 41.0527,
+    "lng": 28.8751,
+    "description": "Esenler Dağıtım Merkezi"
+  },
+  "Sefaköy Merkez": {
+    "lat": 41.0634,
+    "lng": 28.8312,
+    "description": "Sefaköy Dağıtım Merkezi"
+  }
+}
