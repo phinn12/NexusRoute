@@ -4,6 +4,25 @@ NEXUS ROUTE is a delivery route planning platform for cargo distribution centers
 
 It is built for operations that start from one or more depots and need to deliver many packages to many addresses with practical constraints such as vehicle count, vehicle capacity, center coverage, Google Maps navigation, and operator notes.
 
+## Use It On The Web
+
+The primary way to use NEXUS ROUTE is through the hosted web application:
+
+- [https://ibkocak.me](https://ibkocak.me)
+
+If your goal is to upload an address file and generate routes, use the website first. The local backend and Streamlit setup are mainly for development, testing, and self-hosted deployment.
+
+Typical hosted workflow:
+
+1. Open [https://ibkocak.me](https://ibkocak.me).
+2. Upload an address file.
+3. Review the normalized preview.
+4. Choose `local`, `google`, or `auto`.
+5. Review the recommended vehicle count and capacity guidance.
+6. Add operation notes if you want Gemini to extract constraints.
+7. Click `Create Route`.
+8. Inspect the main map, per-vehicle maps, stop numbering, and Google Maps navigation links.
+
 ## What It Does
 
 - Accepts uploaded address files in CSV, Excel, JSON, GeoJSON, NDJSON, and text-derived formats
@@ -72,6 +91,14 @@ Current copilot use cases:
 
 ## Quick Start
 
+### Recommended: use the hosted site
+
+If you want to use the product instead of developing it locally, go here:
+
+- [https://ibkocak.me](https://ibkocak.me)
+
+This is the main web deployment of the project.
+
 ### 1. Clone the repository
 
 ```bash
@@ -122,6 +149,8 @@ Default UI URL:
 http://127.0.0.1:8501
 ```
 
+Local URLs such as `127.0.0.1:8010` and `127.0.0.1:8501` are only for self-hosted development. End users should use [https://ibkocak.me](https://ibkocak.me).
+
 ## Example Input File
 
 An example file is included here:
@@ -138,7 +167,7 @@ You can upload the sample file directly from the UI and run a full test route.
 
 ## Recommended Test Flow
 
-1. Start the backend and UI.
+1. Open [https://ibkocak.me](https://ibkocak.me) or start the backend and UI locally.
 2. Upload `examples/sample_addresses.csv`.
 3. Keep `preserve centers` enabled.
 4. Try `local` first.
@@ -237,6 +266,10 @@ For Linux deployment, the repository also includes:
 - `setup_nginx.sh`
 
 These files are intended for systemd + Nginx deployments.
+
+The reference web deployment is:
+
+- [https://ibkocak.me](https://ibkocak.me)
 
 ## Testing
 
